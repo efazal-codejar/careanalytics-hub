@@ -18,14 +18,167 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# ==================== DATABASE INITIALIZATION - FIXED FOR STREAMLIT CLOUD ====================
+
 @st.cache_resource
 def init_db_connection():
-    script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    db_path = os.path.join(script_dir, "database", "healthcare_dashboard.db")
-    if not os.path.exists(db_path):
-        st.error(f"Database not found at {db_path}")
-        st.stop()
-    return sqlite3.connect(db_path, check_same_thread=False)
+    """Initialize database - auto-creates on Streamlit Cloud if missing"""
+    
+    # Use /tmp for Streamlit Cloud, local database folder for development
+    if os.path.exists('/tmp'):
+        db_path = '/tmp/healthcare_dashboard.db'
+    else:
+        os.makedirs('database', exist_ok=True)
+        db_path = os.path.join('database', 'healthcare_dashboard.db')
+    
+    conn = sqlite3.connect(db_path, check_same_thread=False)
+    
+    # Check if database needs initialization
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='patients'")
+    
+    if cursor.fetchone() is None:
+        # Database is empty - initialize it with sample data
+        _initialize_database(conn)
+    
+    return conn
+
+def _initialize_database(conn):
+    """Create all tables and populate with realistic sample healthcare data"""
+    cursor = conn.cursor()
+    
+    # Create all tables
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS patients (
+        patient_id INTEGER PRIMARY KEY,
+        age INTEGER,
+        risk_score REAL
+    )
+    ''')
+    
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gaps_in_care (
+        gap_id INTEGER PRIMARY KEY,
+        patient_id INTEGER,
+        screening_type TEXT,
+        gap_type TEXT,
+        priority TEXT,
+        days_overdue INTEGER,
+        target_completion_date TEXT,
+        FOREIGN KEY(patient_id) REFERENCES patients(patient_id)
+    )
+    ''')
+    
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS providers (
+        provider_id INTEGER PRIMARY KEY,
+        provider_name TEXT,
+        specialty TEXT,
+        total_patients INTEGER,
+        patient_satisfaction_score REAL,
+        appointment_no_show_rate REAL,
+        quality_score REAL,
+        average_visit_duration INTEGER,
+        referral_rate REAL,
+        patient_retention_rate REAL
+    )
+    ''')
+    
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS provider_performance (
+        perf_id INTEGER PRIMARY KEY,
+        provider_id INTEGER,
+        provider_name TEXT,
+        total_patients INTEGER,
+        patient_satisfaction_score REAL,
+        appointment_no_show_rate REAL,
+        quality_score REAL,
+        average_visit_duration INTEGER,
+        referral_rate REAL,
+        patient_retention_rate REAL,
+        FOREIGN KEY(provider_id) REFERENCES providers(provider_id)
+    )
+    ''')
+    
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS hedis_metrics (
+        metric_id INTEGER PRIMARY KEY,
+        measure_name TEXT,
+        performance_rate REAL
+    )
+    ''')
+    
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS clinical_quality (
+        quality_id INTEGER PRIMARY KEY,
+        patient_id INTEGER,
+        metric_type TEXT,
+        status TEXT,
+        FOREIGN KEY(patient_id) REFERENCES patients(patient_id)
+    )
+    ''')
+    
+    # Generate realistic sample data
+    np.random.seed(42)
+    
+    # 1. Patients (5,000)
+    for i in range(5000):
+        age = np.random.randint(18, 85)
+        risk_score = round(np.random.uniform(1.0, 5.0), 2)
+        cursor.execute('INSERT INTO patients VALUES (?, ?, ?)', (i, age, risk_score))
+    
+    # 2. Gaps in Care (1,200)
+    screening_types = ['Diabetes Screening', 'Blood Pressure Check', 'Cholesterol Test',
+                       'Breast Cancer Screening', 'Cervical Cancer Screening',
+                       'Colorectal Cancer Screening', 'Preventive Care Visit', 'Immunizations']
+    for i in range(1200):
+        patient_id = np.random.randint(0, 5000)
+        screening_type = np.random.choice(screening_types)
+        gap_type = np.random.choice(['open', 'closed'], p=[0.35, 0.65])
+        priority = np.random.choice(['High', 'Medium', 'Low'], p=[0.2, 0.3, 0.5])
+        days_overdue = np.random.randint(0, 365) if gap_type == 'open' else 0
+        cursor.execute(
+            'INSERT INTO gaps_in_care VALUES (?, ?, ?, ?, ?, ?, ?)',
+            (i, patient_id, screening_type, gap_type, priority, days_overdue, '2024-04-30')
+        )
+    
+    # 3. Providers (150)
+    specialties = ['General Practice', 'Cardiology', 'Pediatrics', 'Psychiatry', 'Oncology']
+    for i in range(150):
+        name = f"Dr. Provider_{i}"
+        specialty = np.random.choice(specialties)
+        total_patients = np.random.randint(500, 2000)
+        satisfaction = round(np.random.uniform(3.2, 4.8), 2)
+        no_show = round(np.random.uniform(0.05, 0.20), 3)
+        quality = round(np.random.uniform(60, 95), 0)
+        visit_duration = np.random.randint(15, 45)
+        referral_rate = round(np.random.uniform(0.05, 0.25), 2)
+        retention = round(np.random.uniform(0.80, 0.98), 2)
+        
+        cursor.execute(
+            'INSERT INTO providers VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+            (i, name, specialty, total_patients, satisfaction, no_show, quality, visit_duration, referral_rate, retention)
+        )
+        
+        cursor.execute(
+            'INSERT INTO provider_performance VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+            (i, i, name, total_patients, satisfaction, no_show, quality, visit_duration, referral_rate, retention)
+        )
+    
+    # 4. HEDIS Metrics (6)
+    measures = ['Diabetes Control', 'Blood Pressure Control', 'Cholesterol Management',
+                'Cancer Screenings', 'Preventive Care', 'Medication Adherence']
+    for i, measure in enumerate(measures):
+        performance = round(np.random.uniform(75, 95), 1)
+        cursor.execute('INSERT INTO hedis_metrics VALUES (?, ?, ?)', (i, measure, performance))
+    
+    # 5. Clinical Quality (5,000)
+    for i in range(5000):
+        metric_type = np.random.choice(['BP', 'Glucose', 'Cholesterol', 'BMI'])
+        status = np.random.choice(['Normal', 'Elevated', 'High'], p=[0.6, 0.25, 0.15])
+        cursor.execute('INSERT INTO clinical_quality VALUES (?, ?, ?, ?)', (i, i, metric_type, status))
+    
+    conn.commit()
 
 @st.cache_data(ttl=3600)
 def load_data(query, _conn):

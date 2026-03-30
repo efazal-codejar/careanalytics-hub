@@ -1,0 +1,80 @@
+# Multi-stage build for optimized frontend image
+
+# Stage 1: Builder
+FROM python:3.11-slim as builder
+
+WORKDIR /app
+
+# Install build dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements
+COPY requirements.txt .
+
+# Create wheels
+RUN pip install --no-cache-dir --user --no-warn-script-location \
+    -r requirements.txt
+
+# Stage 2: Runtime
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install runtime dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy Python packages from builder
+COPY --from=builder /root/.local /root/.local
+
+# Make sure scripts in .local are usable
+ENV PATH=/root/.local/bin:$PATH
+
+# Set Python environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    STREAMLIT_CLIENT_TOOLBAR_MODE=minimal
+
+# Copy application code
+COPY frontend/ /app/frontend/
+COPY database/ /app/database/
+COPY data/ /app/data/
+COPY .streamlit/ /app/.streamlit/
+
+# Create .streamlit directory if it doesn't exist
+RUN mkdir -p /app/.streamlit
+
+# Create Streamlit config
+RUN echo '[theme]
+primaryColor = "#1f77d4"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"
+' > /app/.streamlit/config.toml
+
+# Create non-root user for security
+RUN useradd -m -u 1000 appuser && \
+    chown -R appuser:appuser /app
+
+USER appuser
+
+# Expose port
+EXPOSE 8501
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:8501/_stcore/health || exit 1
+
+# Run Streamlit application
+CMD ["streamlit", "run", "frontend/streamlit_app_production.py", \
+     "--server.port=8501", \
+     "--server.address=0.0.0.0", \
+     "--server.headless=true"]

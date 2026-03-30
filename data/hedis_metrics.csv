@@ -1,0 +1,351 @@
+hedis_id,measure_name,provider_id,numerator,denominator,performance_rate,target_rate,benchmark_rate,measurement_year,status,trend
+HEDIS616479,Diabetes Care - Eye Exam,PROV00104,416,503,82.7,85.0,75.5,2024,Not Met,Stable
+HEDIS730282,Diabetes Care - Eye Exam,PROV00048,114,771,14.79,85.0,75.5,2024,Not Met,Declining
+HEDIS791527,Diabetes Care - Eye Exam,PROV00068,187,816,22.92,85.0,75.5,2024,Not Met,Stable
+HEDIS680309,Diabetes Care - Eye Exam,PROV00150,212,822,25.79,85.0,75.5,2024,Not Met,Improving
+HEDIS312567,Diabetes Care - Eye Exam,PROV00055,220,879,25.03,85.0,75.5,2024,Not Met,Stable
+HEDIS206688,Diabetes Care - Eye Exam,PROV00069,123,763,16.12,85.0,75.5,2024,Not Met,Stable
+HEDIS695452,Diabetes Care - Eye Exam,PROV00120,309,747,41.37,85.0,75.5,2024,Not Met,Stable
+HEDIS469444,Diabetes Care - Eye Exam,PROV00054,415,577,71.92,85.0,75.5,2024,Not Met,Improving
+HEDIS808978,Diabetes Care - Eye Exam,PROV00136,193,984,19.61,85.0,75.5,2024,Not Met,Declining
+HEDIS978928,Diabetes Care - Eye Exam,PROV00130,327,691,47.32,85.0,75.5,2024,Not Met,Improving
+HEDIS188117,Diabetes Care - Eye Exam,PROV00129,295,985,29.95,85.0,75.5,2024,Not Met,Declining
+HEDIS135112,Diabetes Care - Eye Exam,PROV00037,196,902,21.73,85.0,75.5,2024,Not Met,Stable
+HEDIS445306,Diabetes Care - Eye Exam,PROV00077,87,548,15.88,85.0,75.5,2024,Not Met,Stable
+HEDIS583653,Diabetes Care - Eye Exam,PROV00099,420,807,52.04,85.0,75.5,2024,Not Met,Improving
+HEDIS412316,Diabetes Care - Eye Exam,PROV00098,253,709,35.68,85.0,75.5,2024,Not Met,Improving
+HEDIS994847,Diabetes Care - Eye Exam,PROV00015,282,871,32.38,85.0,75.5,2024,Not Met,Stable
+HEDIS624960,Diabetes Care - Eye Exam,PROV00071,100,520,19.23,85.0,75.5,2024,Not Met,Stable
+HEDIS881161,Diabetes Care - Eye Exam,PROV00108,134,723,18.53,85.0,75.5,2024,Not Met,Stable
+HEDIS521040,Diabetes Care - Eye Exam,PROV00016,287,899,31.92,85.0,75.5,2024,Not Met,Stable
+HEDIS477546,Diabetes Care - Eye Exam,PROV00062,340,690,49.28,85.0,75.5,2024,Not Met,Improving
+HEDIS694095,Diabetes Care - Eye Exam,PROV00010,255,655,38.93,85.0,75.5,2024,Not Met,Stable
+HEDIS641422,Diabetes Care - Eye Exam,PROV00133,134,688,19.48,85.0,75.5,2024,Not Met,Stable
+HEDIS883001,Diabetes Care - Eye Exam,PROV00145,200,689,29.03,85.0,75.5,2024,Not Met,Improving
+HEDIS726107,Diabetes Care - Eye Exam,PROV00117,230,877,26.23,85.0,75.5,2024,Not Met,Stable
+HEDIS521257,Diabetes Care - Eye Exam,PROV00126,319,517,61.7,85.0,75.5,2024,Not Met,Improving
+HEDIS644891,Diabetes Care - Eye Exam,PROV00065,219,570,38.42,85.0,75.5,2024,Not Met,Stable
+HEDIS488497,Diabetes Care - Eye Exam,PROV00045,278,953,29.17,85.0,75.5,2024,Not Met,Improving
+HEDIS955966,Diabetes Care - Eye Exam,PROV00097,420,878,47.84,85.0,75.5,2024,Not Met,Stable
+HEDIS317250,Diabetes Care - Eye Exam,PROV00002,159,848,18.75,85.0,75.5,2024,Not Met,Improving
+HEDIS416383,Diabetes Care - Eye Exam,PROV00115,404,724,55.8,85.0,75.5,2024,Not Met,Stable
+HEDIS437367,Diabetes Care - Eye Exam,PROV00109,292,898,32.52,85.0,75.5,2024,Not Met,Improving
+HEDIS644460,Diabetes Care - Eye Exam,PROV00047,241,878,27.45,85.0,75.5,2024,Not Met,Improving
+HEDIS497040,Diabetes Care - Eye Exam,PROV00021,148,917,16.14,85.0,75.5,2024,Not Met,Declining
+HEDIS621215,Diabetes Care - Eye Exam,PROV00079,398,556,71.58,85.0,75.5,2024,Not Met,Stable
+HEDIS659224,Diabetes Care - Eye Exam,PROV00076,287,597,48.07,85.0,75.5,2024,Not Met,Improving
+HEDIS575379,Diabetes Care - Eye Exam,PROV00121,435,616,70.62,85.0,75.5,2024,Not Met,Improving
+HEDIS343198,Diabetes Care - Eye Exam,PROV00096,155,739,20.97,85.0,75.5,2024,Not Met,Stable
+HEDIS195967,Diabetes Care - Eye Exam,PROV00053,155,733,21.15,85.0,75.5,2024,Not Met,Stable
+HEDIS786952,Diabetes Care - Eye Exam,PROV00087,291,638,45.61,85.0,75.5,2024,Not Met,Improving
+HEDIS607094,Diabetes Care - Eye Exam,PROV00112,145,625,23.2,85.0,75.5,2024,Not Met,Stable
+HEDIS113083,Diabetes Care - Eye Exam,PROV00131,88,945,9.31,85.0,75.5,2024,Not Met,Stable
+HEDIS777516,Diabetes Care - Eye Exam,PROV00026,168,583,28.82,85.0,75.5,2024,Not Met,Improving
+HEDIS179096,Diabetes Care - Eye Exam,PROV00023,345,687,50.22,85.0,75.5,2024,Not Met,Stable
+HEDIS537135,Diabetes Care - Eye Exam,PROV00084,190,768,24.74,85.0,75.5,2024,Not Met,Stable
+HEDIS693840,Diabetes Care - Eye Exam,PROV00003,389,536,72.57,85.0,75.5,2024,Not Met,Declining
+HEDIS651591,Diabetes Care - Eye Exam,PROV00089,441,925,47.68,85.0,75.5,2024,Not Met,Declining
+HEDIS589818,Diabetes Care - Eye Exam,PROV00058,211,746,28.28,85.0,75.5,2024,Not Met,Stable
+HEDIS754425,Diabetes Care - Eye Exam,PROV00105,155,703,22.05,85.0,75.5,2024,Not Met,Improving
+HEDIS982423,Diabetes Care - Eye Exam,PROV00067,308,513,60.04,85.0,75.5,2024,Not Met,Improving
+HEDIS207076,Diabetes Care - Eye Exam,PROV00032,439,734,59.81,85.0,75.5,2024,Not Met,Stable
+HEDIS101950,Diabetes Care - Kidney Check,PROV00044,88,780,11.28,85.0,75.5,2024,Not Met,Declining
+HEDIS303680,Diabetes Care - Kidney Check,PROV00100,254,687,36.97,85.0,75.5,2024,Not Met,Improving
+HEDIS724966,Diabetes Care - Kidney Check,PROV00002,422,830,50.84,85.0,75.5,2024,Not Met,Improving
+HEDIS541347,Diabetes Care - Kidney Check,PROV00134,441,677,65.14,85.0,75.5,2024,Not Met,Improving
+HEDIS937440,Diabetes Care - Kidney Check,PROV00017,299,755,39.6,85.0,75.5,2024,Not Met,Stable
+HEDIS392535,Diabetes Care - Kidney Check,PROV00096,232,964,24.07,85.0,75.5,2024,Not Met,Stable
+HEDIS257802,Diabetes Care - Kidney Check,PROV00125,450,872,51.61,85.0,75.5,2024,Not Met,Declining
+HEDIS334322,Diabetes Care - Kidney Check,PROV00069,342,549,62.3,85.0,75.5,2024,Not Met,Improving
+HEDIS140697,Diabetes Care - Kidney Check,PROV00135,353,978,36.09,85.0,75.5,2024,Not Met,Improving
+HEDIS412973,Diabetes Care - Kidney Check,PROV00023,416,933,44.59,85.0,75.5,2024,Not Met,Declining
+HEDIS202031,Diabetes Care - Kidney Check,PROV00077,82,963,8.52,85.0,75.5,2024,Not Met,Declining
+HEDIS567063,Diabetes Care - Kidney Check,PROV00133,398,863,46.12,85.0,75.5,2024,Not Met,Stable
+HEDIS229942,Diabetes Care - Kidney Check,PROV00013,260,863,30.13,85.0,75.5,2024,Not Met,Improving
+HEDIS219153,Diabetes Care - Kidney Check,PROV00095,339,551,61.52,85.0,75.5,2024,Not Met,Improving
+HEDIS828880,Diabetes Care - Kidney Check,PROV00030,289,792,36.49,85.0,75.5,2024,Not Met,Declining
+HEDIS211378,Diabetes Care - Kidney Check,PROV00148,363,865,41.97,85.0,75.5,2024,Not Met,Improving
+HEDIS596884,Diabetes Care - Kidney Check,PROV00024,439,950,46.21,85.0,75.5,2024,Not Met,Stable
+HEDIS967374,Diabetes Care - Kidney Check,PROV00088,198,921,21.5,85.0,75.5,2024,Not Met,Improving
+HEDIS677968,Diabetes Care - Kidney Check,PROV00051,313,651,48.08,85.0,75.5,2024,Not Met,Improving
+HEDIS815548,Diabetes Care - Kidney Check,PROV00114,449,592,75.84,85.0,75.5,2024,Not Met,Improving
+HEDIS826468,Diabetes Care - Kidney Check,PROV00026,212,708,29.94,85.0,75.5,2024,Not Met,Improving
+HEDIS534403,Diabetes Care - Kidney Check,PROV00034,111,537,20.67,85.0,75.5,2024,Not Met,Declining
+HEDIS580244,Diabetes Care - Kidney Check,PROV00124,214,687,31.15,85.0,75.5,2024,Not Met,Declining
+HEDIS595906,Diabetes Care - Kidney Check,PROV00007,410,514,79.77,85.0,75.5,2024,Not Met,Stable
+HEDIS349862,Diabetes Care - Kidney Check,PROV00098,231,989,23.36,85.0,75.5,2024,Not Met,Stable
+HEDIS176223,Diabetes Care - Kidney Check,PROV00104,293,839,34.92,85.0,75.5,2024,Not Met,Declining
+HEDIS952203,Diabetes Care - Kidney Check,PROV00078,432,826,52.3,85.0,75.5,2024,Not Met,Stable
+HEDIS375856,Diabetes Care - Kidney Check,PROV00079,243,737,32.97,85.0,75.5,2024,Not Met,Declining
+HEDIS758939,Diabetes Care - Kidney Check,PROV00061,365,894,40.83,85.0,75.5,2024,Not Met,Stable
+HEDIS102538,Diabetes Care - Kidney Check,PROV00039,339,818,41.44,85.0,75.5,2024,Not Met,Declining
+HEDIS861346,Diabetes Care - Kidney Check,PROV00138,328,806,40.69,85.0,75.5,2024,Not Met,Stable
+HEDIS441732,Diabetes Care - Kidney Check,PROV00090,236,748,31.55,85.0,75.5,2024,Not Met,Stable
+HEDIS172817,Diabetes Care - Kidney Check,PROV00056,390,570,68.42,85.0,75.5,2024,Not Met,Stable
+HEDIS599191,Diabetes Care - Kidney Check,PROV00014,327,834,39.21,85.0,75.5,2024,Not Met,Stable
+HEDIS646270,Diabetes Care - Kidney Check,PROV00071,338,697,48.49,85.0,75.5,2024,Not Met,Improving
+HEDIS125056,Diabetes Care - Kidney Check,PROV00115,147,910,16.15,85.0,75.5,2024,Not Met,Declining
+HEDIS998535,Diabetes Care - Kidney Check,PROV00122,266,606,43.89,85.0,75.5,2024,Not Met,Improving
+HEDIS709536,Diabetes Care - Kidney Check,PROV00020,331,870,38.05,85.0,75.5,2024,Not Met,Declining
+HEDIS389260,Diabetes Care - Kidney Check,PROV00064,328,700,46.86,85.0,75.5,2024,Not Met,Stable
+HEDIS487419,Diabetes Care - Kidney Check,PROV00130,344,991,34.71,85.0,75.5,2024,Not Met,Stable
+HEDIS120994,Diabetes Care - Kidney Check,PROV00075,379,631,60.06,85.0,75.5,2024,Not Met,Declining
+HEDIS691080,Diabetes Care - Kidney Check,PROV00083,296,675,43.85,85.0,75.5,2024,Not Met,Stable
+HEDIS335083,Diabetes Care - Kidney Check,PROV00111,424,970,43.71,85.0,75.5,2024,Not Met,Improving
+HEDIS651785,Diabetes Care - Kidney Check,PROV00012,331,870,38.05,85.0,75.5,2024,Not Met,Improving
+HEDIS249327,Diabetes Care - Kidney Check,PROV00073,258,899,28.7,85.0,75.5,2024,Not Met,Declining
+HEDIS207101,Diabetes Care - Kidney Check,PROV00010,427,746,57.24,85.0,75.5,2024,Not Met,Stable
+HEDIS393804,Diabetes Care - Kidney Check,PROV00097,366,713,51.33,85.0,75.5,2024,Not Met,Stable
+HEDIS840692,Diabetes Care - Kidney Check,PROV00008,82,517,15.86,85.0,75.5,2024,Not Met,Stable
+HEDIS563468,Diabetes Care - Kidney Check,PROV00057,426,649,65.64,85.0,75.5,2024,Not Met,Stable
+HEDIS744484,Diabetes Care - Kidney Check,PROV00142,347,847,40.97,85.0,75.5,2024,Not Met,Improving
+HEDIS634515,Diabetes Care - HbA1c Control,PROV00128,311,562,55.34,80.0,75.5,2024,Not Met,Stable
+HEDIS140519,Diabetes Care - HbA1c Control,PROV00082,419,680,61.62,80.0,75.5,2024,Not Met,Declining
+HEDIS411994,Diabetes Care - HbA1c Control,PROV00064,114,728,15.66,80.0,75.5,2024,Not Met,Improving
+HEDIS562029,Diabetes Care - HbA1c Control,PROV00041,428,624,68.59,80.0,75.5,2024,Not Met,Improving
+HEDIS791146,Diabetes Care - HbA1c Control,PROV00085,159,957,16.61,80.0,75.5,2024,Not Met,Stable
+HEDIS387696,Diabetes Care - HbA1c Control,PROV00058,284,645,44.03,80.0,75.5,2024,Not Met,Stable
+HEDIS900204,Diabetes Care - HbA1c Control,PROV00028,150,977,15.35,80.0,75.5,2024,Not Met,Stable
+HEDIS820838,Diabetes Care - HbA1c Control,PROV00124,253,533,47.47,80.0,75.5,2024,Not Met,Declining
+HEDIS360058,Diabetes Care - HbA1c Control,PROV00039,90,615,14.63,80.0,75.5,2024,Not Met,Improving
+HEDIS236112,Diabetes Care - HbA1c Control,PROV00079,206,993,20.75,80.0,75.5,2024,Not Met,Improving
+HEDIS527426,Diabetes Care - HbA1c Control,PROV00075,188,513,36.65,80.0,75.5,2024,Not Met,Stable
+HEDIS268304,Diabetes Care - HbA1c Control,PROV00136,117,865,13.53,80.0,75.5,2024,Not Met,Improving
+HEDIS162923,Diabetes Care - HbA1c Control,PROV00113,217,565,38.41,80.0,75.5,2024,Not Met,Improving
+HEDIS364848,Diabetes Care - HbA1c Control,PROV00022,274,791,34.64,80.0,75.5,2024,Not Met,Stable
+HEDIS755557,Diabetes Care - HbA1c Control,PROV00018,429,703,61.02,80.0,75.5,2024,Not Met,Stable
+HEDIS845042,Diabetes Care - HbA1c Control,PROV00106,354,946,37.42,80.0,75.5,2024,Not Met,Stable
+HEDIS482601,Diabetes Care - HbA1c Control,PROV00146,169,634,26.66,80.0,75.5,2024,Not Met,Stable
+HEDIS554147,Diabetes Care - HbA1c Control,PROV00141,406,655,61.98,80.0,75.5,2024,Not Met,Improving
+HEDIS297826,Diabetes Care - HbA1c Control,PROV00148,273,670,40.75,80.0,75.5,2024,Not Met,Improving
+HEDIS343298,Diabetes Care - HbA1c Control,PROV00150,420,864,48.61,80.0,75.5,2024,Not Met,Improving
+HEDIS451410,Diabetes Care - HbA1c Control,PROV00070,192,841,22.83,80.0,75.5,2024,Not Met,Improving
+HEDIS352944,Diabetes Care - HbA1c Control,PROV00117,87,957,9.09,80.0,75.5,2024,Not Met,Declining
+HEDIS556896,Diabetes Care - HbA1c Control,PROV00046,339,604,56.13,80.0,75.5,2024,Not Met,Improving
+HEDIS356438,Diabetes Care - HbA1c Control,PROV00140,419,898,46.66,80.0,75.5,2024,Not Met,Stable
+HEDIS810232,Diabetes Care - HbA1c Control,PROV00083,197,669,29.45,80.0,75.5,2024,Not Met,Improving
+HEDIS437424,Diabetes Care - HbA1c Control,PROV00086,363,535,67.85,80.0,75.5,2024,Not Met,Stable
+HEDIS376001,Diabetes Care - HbA1c Control,PROV00090,417,861,48.43,80.0,75.5,2024,Not Met,Stable
+HEDIS105326,Diabetes Care - HbA1c Control,PROV00119,196,769,25.49,80.0,75.5,2024,Not Met,Stable
+HEDIS202694,Diabetes Care - HbA1c Control,PROV00145,376,762,49.34,80.0,75.5,2024,Not Met,Improving
+HEDIS550626,Diabetes Care - HbA1c Control,PROV00050,211,626,33.71,80.0,75.5,2024,Not Met,Improving
+HEDIS929825,Diabetes Care - HbA1c Control,PROV00060,308,578,53.29,80.0,75.5,2024,Not Met,Declining
+HEDIS677136,Diabetes Care - HbA1c Control,PROV00017,81,615,13.17,80.0,75.5,2024,Not Met,Declining
+HEDIS841448,Diabetes Care - HbA1c Control,PROV00111,420,935,44.92,80.0,75.5,2024,Not Met,Improving
+HEDIS951468,Diabetes Care - HbA1c Control,PROV00016,215,804,26.74,80.0,75.5,2024,Not Met,Improving
+HEDIS952432,Diabetes Care - HbA1c Control,PROV00135,133,710,18.73,80.0,75.5,2024,Not Met,Declining
+HEDIS416205,Diabetes Care - HbA1c Control,PROV00020,237,939,25.24,80.0,75.5,2024,Not Met,Stable
+HEDIS814858,Diabetes Care - HbA1c Control,PROV00030,134,818,16.38,80.0,75.5,2024,Not Met,Improving
+HEDIS678872,Diabetes Care - HbA1c Control,PROV00072,296,750,39.47,80.0,75.5,2024,Not Met,Stable
+HEDIS494082,Diabetes Care - HbA1c Control,PROV00059,274,799,34.29,80.0,75.5,2024,Not Met,Improving
+HEDIS701825,Diabetes Care - HbA1c Control,PROV00065,313,641,48.83,80.0,75.5,2024,Not Met,Stable
+HEDIS726669,Diabetes Care - HbA1c Control,PROV00132,196,524,37.4,80.0,75.5,2024,Not Met,Stable
+HEDIS938568,Diabetes Care - HbA1c Control,PROV00094,440,556,79.14,80.0,75.5,2024,Not Met,Improving
+HEDIS409637,Diabetes Care - HbA1c Control,PROV00044,397,593,66.95,80.0,75.5,2024,Not Met,Improving
+HEDIS162238,Diabetes Care - HbA1c Control,PROV00147,391,968,40.39,80.0,75.5,2024,Not Met,Declining
+HEDIS833316,Diabetes Care - HbA1c Control,PROV00115,179,655,27.33,80.0,75.5,2024,Not Met,Stable
+HEDIS431886,Diabetes Care - HbA1c Control,PROV00026,210,872,24.08,80.0,75.5,2024,Not Met,Stable
+HEDIS830148,Diabetes Care - HbA1c Control,PROV00134,201,628,32.01,80.0,75.5,2024,Not Met,Declining
+HEDIS129628,Diabetes Care - HbA1c Control,PROV00052,273,979,27.89,80.0,75.5,2024,Not Met,Improving
+HEDIS741508,Diabetes Care - HbA1c Control,PROV00037,109,563,19.36,80.0,75.5,2024,Not Met,Stable
+HEDIS367744,Diabetes Care - HbA1c Control,PROV00110,100,673,14.86,80.0,75.5,2024,Not Met,Improving
+HEDIS331419,High Blood Pressure Controlled,PROV00029,181,624,29.01,80.0,75.5,2024,Not Met,Declining
+HEDIS520720,High Blood Pressure Controlled,PROV00033,80,716,11.17,80.0,75.5,2024,Not Met,Improving
+HEDIS892380,High Blood Pressure Controlled,PROV00062,298,528,56.44,80.0,75.5,2024,Not Met,Stable
+HEDIS815471,High Blood Pressure Controlled,PROV00049,364,780,46.67,80.0,75.5,2024,Not Met,Declining
+HEDIS782755,High Blood Pressure Controlled,PROV00122,84,750,11.2,80.0,75.5,2024,Not Met,Improving
+HEDIS933362,High Blood Pressure Controlled,PROV00071,444,655,67.79,80.0,75.5,2024,Not Met,Stable
+HEDIS929343,High Blood Pressure Controlled,PROV00096,116,721,16.09,80.0,75.5,2024,Not Met,Improving
+HEDIS795337,High Blood Pressure Controlled,PROV00078,95,953,9.97,80.0,75.5,2024,Not Met,Stable
+HEDIS973106,High Blood Pressure Controlled,PROV00052,116,753,15.41,80.0,75.5,2024,Not Met,Stable
+HEDIS605745,High Blood Pressure Controlled,PROV00046,282,697,40.46,80.0,75.5,2024,Not Met,Improving
+HEDIS605637,High Blood Pressure Controlled,PROV00081,194,644,30.12,80.0,75.5,2024,Not Met,Stable
+HEDIS363019,High Blood Pressure Controlled,PROV00004,312,709,44.01,80.0,75.5,2024,Not Met,Improving
+HEDIS259647,High Blood Pressure Controlled,PROV00089,198,894,22.15,80.0,75.5,2024,Not Met,Improving
+HEDIS277786,High Blood Pressure Controlled,PROV00107,409,790,51.77,80.0,75.5,2024,Not Met,Improving
+HEDIS707938,High Blood Pressure Controlled,PROV00059,367,738,49.73,80.0,75.5,2024,Not Met,Stable
+HEDIS336706,High Blood Pressure Controlled,PROV00076,100,896,11.16,80.0,75.5,2024,Not Met,Stable
+HEDIS786613,High Blood Pressure Controlled,PROV00146,349,924,37.77,80.0,75.5,2024,Not Met,Declining
+HEDIS899756,High Blood Pressure Controlled,PROV00149,152,741,20.51,80.0,75.5,2024,Not Met,Declining
+HEDIS755223,High Blood Pressure Controlled,PROV00148,179,906,19.76,80.0,75.5,2024,Not Met,Declining
+HEDIS292007,High Blood Pressure Controlled,PROV00129,327,731,44.73,80.0,75.5,2024,Not Met,Improving
+HEDIS584556,High Blood Pressure Controlled,PROV00105,358,818,43.77,80.0,75.5,2024,Not Met,Stable
+HEDIS905443,High Blood Pressure Controlled,PROV00097,438,651,67.28,80.0,75.5,2024,Not Met,Stable
+HEDIS659340,High Blood Pressure Controlled,PROV00101,275,943,29.16,80.0,75.5,2024,Not Met,Stable
+HEDIS768954,High Blood Pressure Controlled,PROV00037,437,648,67.44,80.0,75.5,2024,Not Met,Improving
+HEDIS106319,High Blood Pressure Controlled,PROV00123,88,912,9.65,80.0,75.5,2024,Not Met,Improving
+HEDIS462734,High Blood Pressure Controlled,PROV00136,427,955,44.71,80.0,75.5,2024,Not Met,Stable
+HEDIS887540,High Blood Pressure Controlled,PROV00077,218,631,34.55,80.0,75.5,2024,Not Met,Improving
+HEDIS962114,High Blood Pressure Controlled,PROV00003,308,916,33.62,80.0,75.5,2024,Not Met,Improving
+HEDIS938148,High Blood Pressure Controlled,PROV00048,322,616,52.27,80.0,75.5,2024,Not Met,Stable
+HEDIS298658,High Blood Pressure Controlled,PROV00116,181,805,22.48,80.0,75.5,2024,Not Met,Stable
+HEDIS818124,High Blood Pressure Controlled,PROV00060,331,591,56.01,80.0,75.5,2024,Not Met,Declining
+HEDIS530612,High Blood Pressure Controlled,PROV00120,93,674,13.8,80.0,75.5,2024,Not Met,Improving
+HEDIS233975,High Blood Pressure Controlled,PROV00024,252,982,25.66,80.0,75.5,2024,Not Met,Declining
+HEDIS653392,High Blood Pressure Controlled,PROV00147,420,735,57.14,80.0,75.5,2024,Not Met,Improving
+HEDIS266971,High Blood Pressure Controlled,PROV00019,97,501,19.36,80.0,75.5,2024,Not Met,Improving
+HEDIS809024,High Blood Pressure Controlled,PROV00083,437,891,49.05,80.0,75.5,2024,Not Met,Stable
+HEDIS297959,High Blood Pressure Controlled,PROV00054,280,642,43.61,80.0,75.5,2024,Not Met,Stable
+HEDIS569939,High Blood Pressure Controlled,PROV00084,199,924,21.54,80.0,75.5,2024,Not Met,Stable
+HEDIS761251,High Blood Pressure Controlled,PROV00063,171,948,18.04,80.0,75.5,2024,Not Met,Improving
+HEDIS965802,High Blood Pressure Controlled,PROV00128,239,524,45.61,80.0,75.5,2024,Not Met,Improving
+HEDIS295049,High Blood Pressure Controlled,PROV00072,245,825,29.7,80.0,75.5,2024,Not Met,Improving
+HEDIS542056,High Blood Pressure Controlled,PROV00112,362,870,41.61,80.0,75.5,2024,Not Met,Stable
+HEDIS445312,High Blood Pressure Controlled,PROV00006,371,861,43.09,80.0,75.5,2024,Not Met,Declining
+HEDIS586092,High Blood Pressure Controlled,PROV00095,138,896,15.4,80.0,75.5,2024,Not Met,Declining
+HEDIS176415,High Blood Pressure Controlled,PROV00011,438,518,84.56,80.0,75.5,2024,Met,Improving
+HEDIS259289,High Blood Pressure Controlled,PROV00047,345,636,54.25,80.0,75.5,2024,Not Met,Stable
+HEDIS249472,High Blood Pressure Controlled,PROV00018,419,888,47.18,80.0,75.5,2024,Not Met,Declining
+HEDIS701632,High Blood Pressure Controlled,PROV00144,316,838,37.71,80.0,75.5,2024,Not Met,Stable
+HEDIS725347,High Blood Pressure Controlled,PROV00031,382,693,55.12,80.0,75.5,2024,Not Met,Improving
+HEDIS206822,High Blood Pressure Controlled,PROV00014,450,933,48.23,80.0,75.5,2024,Not Met,Improving
+HEDIS480532,Antidepressant Medication Adherence,PROV00073,154,553,27.85,80.0,75.5,2024,Not Met,Stable
+HEDIS633600,Antidepressant Medication Adherence,PROV00044,293,632,46.36,80.0,75.5,2024,Not Met,Improving
+HEDIS138924,Antidepressant Medication Adherence,PROV00004,394,592,66.55,80.0,75.5,2024,Not Met,Improving
+HEDIS624973,Antidepressant Medication Adherence,PROV00120,88,522,16.86,80.0,75.5,2024,Not Met,Improving
+HEDIS544106,Antidepressant Medication Adherence,PROV00130,193,670,28.81,80.0,75.5,2024,Not Met,Declining
+HEDIS781284,Antidepressant Medication Adherence,PROV00136,289,654,44.19,80.0,75.5,2024,Not Met,Improving
+HEDIS271799,Antidepressant Medication Adherence,PROV00041,264,529,49.91,80.0,75.5,2024,Not Met,Improving
+HEDIS343817,Antidepressant Medication Adherence,PROV00128,204,594,34.34,80.0,75.5,2024,Not Met,Stable
+HEDIS974261,Antidepressant Medication Adherence,PROV00069,122,792,15.4,80.0,75.5,2024,Not Met,Improving
+HEDIS942101,Antidepressant Medication Adherence,PROV00080,81,880,9.2,80.0,75.5,2024,Not Met,Stable
+HEDIS271926,Antidepressant Medication Adherence,PROV00132,359,727,49.38,80.0,75.5,2024,Not Met,Improving
+HEDIS788908,Antidepressant Medication Adherence,PROV00040,318,556,57.19,80.0,75.5,2024,Not Met,Stable
+HEDIS622808,Antidepressant Medication Adherence,PROV00026,358,546,65.57,80.0,75.5,2024,Not Met,Declining
+HEDIS710867,Antidepressant Medication Adherence,PROV00147,140,737,19.0,80.0,75.5,2024,Not Met,Stable
+HEDIS622578,Antidepressant Medication Adherence,PROV00125,141,513,27.49,80.0,75.5,2024,Not Met,Declining
+HEDIS455221,Antidepressant Medication Adherence,PROV00093,237,729,32.51,80.0,75.5,2024,Not Met,Declining
+HEDIS357421,Antidepressant Medication Adherence,PROV00001,272,822,33.09,80.0,75.5,2024,Not Met,Stable
+HEDIS320173,Antidepressant Medication Adherence,PROV00077,215,551,39.02,80.0,75.5,2024,Not Met,Improving
+HEDIS591672,Antidepressant Medication Adherence,PROV00047,248,661,37.52,80.0,75.5,2024,Not Met,Declining
+HEDIS429001,Antidepressant Medication Adherence,PROV00072,380,719,52.85,80.0,75.5,2024,Not Met,Declining
+HEDIS729911,Antidepressant Medication Adherence,PROV00006,262,566,46.29,80.0,75.5,2024,Not Met,Stable
+HEDIS292456,Antidepressant Medication Adherence,PROV00103,145,634,22.87,80.0,75.5,2024,Not Met,Improving
+HEDIS362936,Antidepressant Medication Adherence,PROV00116,371,525,70.67,80.0,75.5,2024,Not Met,Improving
+HEDIS149345,Antidepressant Medication Adherence,PROV00074,393,640,61.41,80.0,75.5,2024,Not Met,Improving
+HEDIS747111,Antidepressant Medication Adherence,PROV00084,429,713,60.17,80.0,75.5,2024,Not Met,Stable
+HEDIS482212,Antidepressant Medication Adherence,PROV00039,322,749,42.99,80.0,75.5,2024,Not Met,Stable
+HEDIS243460,Antidepressant Medication Adherence,PROV00129,224,671,33.38,80.0,75.5,2024,Not Met,Improving
+HEDIS222012,Antidepressant Medication Adherence,PROV00046,425,784,54.21,80.0,75.5,2024,Not Met,Improving
+HEDIS243764,Antidepressant Medication Adherence,PROV00065,96,727,13.2,80.0,75.5,2024,Not Met,Declining
+HEDIS389808,Antidepressant Medication Adherence,PROV00059,96,707,13.58,80.0,75.5,2024,Not Met,Stable
+HEDIS985187,Antidepressant Medication Adherence,PROV00018,399,601,66.39,80.0,75.5,2024,Not Met,Improving
+HEDIS978921,Antidepressant Medication Adherence,PROV00038,363,858,42.31,80.0,75.5,2024,Not Met,Improving
+HEDIS635348,Antidepressant Medication Adherence,PROV00008,317,768,41.28,80.0,75.5,2024,Not Met,Stable
+HEDIS861920,Antidepressant Medication Adherence,PROV00057,99,662,14.95,80.0,75.5,2024,Not Met,Improving
+HEDIS677617,Antidepressant Medication Adherence,PROV00060,199,619,32.15,80.0,75.5,2024,Not Met,Improving
+HEDIS275009,Antidepressant Medication Adherence,PROV00016,347,711,48.8,80.0,75.5,2024,Not Met,Stable
+HEDIS610643,Antidepressant Medication Adherence,PROV00126,362,711,50.91,80.0,75.5,2024,Not Met,Improving
+HEDIS970699,Antidepressant Medication Adherence,PROV00102,425,586,72.53,80.0,75.5,2024,Not Met,Improving
+HEDIS613797,Antidepressant Medication Adherence,PROV00082,228,570,40.0,80.0,75.5,2024,Not Met,Improving
+HEDIS832440,Antidepressant Medication Adherence,PROV00051,270,642,42.06,80.0,75.5,2024,Not Met,Declining
+HEDIS488449,Antidepressant Medication Adherence,PROV00123,83,966,8.59,80.0,75.5,2024,Not Met,Improving
+HEDIS686956,Antidepressant Medication Adherence,PROV00030,175,936,18.7,80.0,75.5,2024,Not Met,Stable
+HEDIS721858,Antidepressant Medication Adherence,PROV00076,234,690,33.91,80.0,75.5,2024,Not Met,Stable
+HEDIS588437,Antidepressant Medication Adherence,PROV00031,135,646,20.9,80.0,75.5,2024,Not Met,Improving
+HEDIS110330,Antidepressant Medication Adherence,PROV00118,333,719,46.31,80.0,75.5,2024,Not Met,Stable
+HEDIS873375,Antidepressant Medication Adherence,PROV00146,338,943,35.84,80.0,75.5,2024,Not Met,Improving
+HEDIS863000,Antidepressant Medication Adherence,PROV00097,345,578,59.69,80.0,75.5,2024,Not Met,Stable
+HEDIS989465,Antidepressant Medication Adherence,PROV00025,414,810,51.11,80.0,75.5,2024,Not Met,Improving
+HEDIS358798,Antidepressant Medication Adherence,PROV00117,136,832,16.35,80.0,75.5,2024,Not Met,Declining
+HEDIS545271,Antidepressant Medication Adherence,PROV00003,338,663,50.98,80.0,75.5,2024,Not Met,Stable
+HEDIS546015,Asthma Medication Ratio,PROV00001,310,904,34.29,80.0,75.5,2024,Not Met,Declining
+HEDIS215286,Asthma Medication Ratio,PROV00105,422,540,78.15,80.0,75.5,2024,Not Met,Stable
+HEDIS132257,Asthma Medication Ratio,PROV00029,280,850,32.94,80.0,75.5,2024,Not Met,Improving
+HEDIS966523,Asthma Medication Ratio,PROV00133,351,895,39.22,80.0,75.5,2024,Not Met,Improving
+HEDIS362477,Asthma Medication Ratio,PROV00069,142,826,17.19,80.0,75.5,2024,Not Met,Improving
+HEDIS830849,Asthma Medication Ratio,PROV00123,409,615,66.5,80.0,75.5,2024,Not Met,Improving
+HEDIS913779,Asthma Medication Ratio,PROV00075,151,878,17.2,80.0,75.5,2024,Not Met,Improving
+HEDIS246898,Asthma Medication Ratio,PROV00104,190,507,37.48,80.0,75.5,2024,Not Met,Improving
+HEDIS177621,Asthma Medication Ratio,PROV00032,292,544,53.68,80.0,75.5,2024,Not Met,Stable
+HEDIS396757,Asthma Medication Ratio,PROV00145,209,674,31.01,80.0,75.5,2024,Not Met,Stable
+HEDIS694469,Asthma Medication Ratio,PROV00134,259,526,49.24,80.0,75.5,2024,Not Met,Stable
+HEDIS320189,Asthma Medication Ratio,PROV00048,325,963,33.75,80.0,75.5,2024,Not Met,Stable
+HEDIS753131,Asthma Medication Ratio,PROV00044,304,629,48.33,80.0,75.5,2024,Not Met,Improving
+HEDIS662689,Asthma Medication Ratio,PROV00143,392,994,39.44,80.0,75.5,2024,Not Met,Improving
+HEDIS361662,Asthma Medication Ratio,PROV00129,235,596,39.43,80.0,75.5,2024,Not Met,Stable
+HEDIS746108,Asthma Medication Ratio,PROV00061,326,600,54.33,80.0,75.5,2024,Not Met,Stable
+HEDIS234001,Asthma Medication Ratio,PROV00006,305,574,53.14,80.0,75.5,2024,Not Met,Improving
+HEDIS810479,Asthma Medication Ratio,PROV00136,295,643,45.88,80.0,75.5,2024,Not Met,Improving
+HEDIS307005,Asthma Medication Ratio,PROV00150,245,701,34.95,80.0,75.5,2024,Not Met,Stable
+HEDIS429927,Asthma Medication Ratio,PROV00085,431,963,44.76,80.0,75.5,2024,Not Met,Improving
+HEDIS303507,Asthma Medication Ratio,PROV00024,183,942,19.43,80.0,75.5,2024,Not Met,Improving
+HEDIS658042,Asthma Medication Ratio,PROV00097,254,505,50.3,80.0,75.5,2024,Not Met,Declining
+HEDIS707139,Asthma Medication Ratio,PROV00023,125,887,14.09,80.0,75.5,2024,Not Met,Improving
+HEDIS555629,Asthma Medication Ratio,PROV00142,328,885,37.06,80.0,75.5,2024,Not Met,Improving
+HEDIS978361,Asthma Medication Ratio,PROV00135,270,702,38.46,80.0,75.5,2024,Not Met,Declining
+HEDIS634617,Asthma Medication Ratio,PROV00073,374,695,53.81,80.0,75.5,2024,Not Met,Improving
+HEDIS223332,Asthma Medication Ratio,PROV00099,230,684,33.63,80.0,75.5,2024,Not Met,Stable
+HEDIS307017,Asthma Medication Ratio,PROV00047,293,662,44.26,80.0,75.5,2024,Not Met,Declining
+HEDIS704605,Asthma Medication Ratio,PROV00014,266,896,29.69,80.0,75.5,2024,Not Met,Improving
+HEDIS932364,Asthma Medication Ratio,PROV00056,188,752,25.0,80.0,75.5,2024,Not Met,Improving
+HEDIS589010,Asthma Medication Ratio,PROV00064,213,829,25.69,80.0,75.5,2024,Not Met,Improving
+HEDIS887373,Asthma Medication Ratio,PROV00022,408,837,48.75,80.0,75.5,2024,Not Met,Improving
+HEDIS157437,Asthma Medication Ratio,PROV00037,336,777,43.24,80.0,75.5,2024,Not Met,Stable
+HEDIS386429,Asthma Medication Ratio,PROV00015,165,985,16.75,80.0,75.5,2024,Not Met,Improving
+HEDIS187749,Asthma Medication Ratio,PROV00112,409,773,52.91,80.0,75.5,2024,Not Met,Improving
+HEDIS851331,Asthma Medication Ratio,PROV00084,168,928,18.1,80.0,75.5,2024,Not Met,Improving
+HEDIS849989,Asthma Medication Ratio,PROV00017,391,761,51.38,80.0,75.5,2024,Not Met,Improving
+HEDIS643226,Asthma Medication Ratio,PROV00016,434,912,47.59,80.0,75.5,2024,Not Met,Improving
+HEDIS403042,Asthma Medication Ratio,PROV00080,153,776,19.72,80.0,75.5,2024,Not Met,Declining
+HEDIS773721,Asthma Medication Ratio,PROV00117,389,619,62.84,80.0,75.5,2024,Not Met,Declining
+HEDIS208616,Asthma Medication Ratio,PROV00079,295,653,45.18,80.0,75.5,2024,Not Met,Declining
+HEDIS713787,Asthma Medication Ratio,PROV00009,441,754,58.49,80.0,75.5,2024,Not Met,Improving
+HEDIS434626,Asthma Medication Ratio,PROV00096,380,966,39.34,80.0,75.5,2024,Not Met,Stable
+HEDIS966423,Asthma Medication Ratio,PROV00077,307,652,47.09,80.0,75.5,2024,Not Met,Stable
+HEDIS258231,Asthma Medication Ratio,PROV00026,243,852,28.52,80.0,75.5,2024,Not Met,Improving
+HEDIS808049,Asthma Medication Ratio,PROV00060,289,675,42.81,80.0,75.5,2024,Not Met,Improving
+HEDIS823509,Asthma Medication Ratio,PROV00027,153,811,18.87,80.0,75.5,2024,Not Met,Improving
+HEDIS547256,Asthma Medication Ratio,PROV00019,101,937,10.78,80.0,75.5,2024,Not Met,Improving
+HEDIS740436,Asthma Medication Ratio,PROV00071,402,646,62.23,80.0,75.5,2024,Not Met,Improving
+HEDIS343129,Asthma Medication Ratio,PROV00070,84,828,10.14,80.0,75.5,2024,Not Met,Improving
+HEDIS174380,Annual Dental Visit,PROV00059,165,717,23.01,75.0,75.5,2024,Not Met,Improving
+HEDIS438370,Annual Dental Visit,PROV00047,405,891,45.45,75.0,75.5,2024,Not Met,Stable
+HEDIS124792,Annual Dental Visit,PROV00020,209,915,22.84,75.0,75.5,2024,Not Met,Declining
+HEDIS649580,Annual Dental Visit,PROV00001,103,924,11.15,75.0,75.5,2024,Not Met,Improving
+HEDIS951089,Annual Dental Visit,PROV00074,107,516,20.74,75.0,75.5,2024,Not Met,Improving
+HEDIS701313,Annual Dental Visit,PROV00007,252,857,29.4,75.0,75.5,2024,Not Met,Stable
+HEDIS432360,Annual Dental Visit,PROV00061,197,787,25.03,75.0,75.5,2024,Not Met,Improving
+HEDIS839681,Annual Dental Visit,PROV00095,181,674,26.85,75.0,75.5,2024,Not Met,Stable
+HEDIS540408,Annual Dental Visit,PROV00075,280,806,34.74,75.0,75.5,2024,Not Met,Improving
+HEDIS386577,Annual Dental Visit,PROV00100,186,500,37.2,75.0,75.5,2024,Not Met,Improving
+HEDIS949792,Annual Dental Visit,PROV00049,272,738,36.86,75.0,75.5,2024,Not Met,Improving
+HEDIS774791,Annual Dental Visit,PROV00008,287,782,36.7,75.0,75.5,2024,Not Met,Declining
+HEDIS744390,Annual Dental Visit,PROV00041,347,865,40.12,75.0,75.5,2024,Not Met,Improving
+HEDIS448758,Annual Dental Visit,PROV00108,319,546,58.42,75.0,75.5,2024,Not Met,Declining
+HEDIS949987,Annual Dental Visit,PROV00058,150,903,16.61,75.0,75.5,2024,Not Met,Stable
+HEDIS121188,Annual Dental Visit,PROV00116,134,963,13.91,75.0,75.5,2024,Not Met,Stable
+HEDIS462574,Annual Dental Visit,PROV00103,206,874,23.57,75.0,75.5,2024,Not Met,Improving
+HEDIS828546,Annual Dental Visit,PROV00147,446,858,51.98,75.0,75.5,2024,Not Met,Declining
+HEDIS563099,Annual Dental Visit,PROV00096,188,598,31.44,75.0,75.5,2024,Not Met,Stable
+HEDIS371422,Annual Dental Visit,PROV00094,210,895,23.46,75.0,75.5,2024,Not Met,Declining
+HEDIS327706,Annual Dental Visit,PROV00146,168,519,32.37,75.0,75.5,2024,Not Met,Stable
+HEDIS722735,Annual Dental Visit,PROV00104,130,867,14.99,75.0,75.5,2024,Not Met,Stable
+HEDIS166373,Annual Dental Visit,PROV00023,120,802,14.96,75.0,75.5,2024,Not Met,Stable
+HEDIS353450,Annual Dental Visit,PROV00105,242,714,33.89,75.0,75.5,2024,Not Met,Improving
+HEDIS589537,Annual Dental Visit,PROV00121,294,759,38.74,75.0,75.5,2024,Not Met,Improving
+HEDIS407512,Annual Dental Visit,PROV00143,302,585,51.62,75.0,75.5,2024,Not Met,Improving
+HEDIS816851,Annual Dental Visit,PROV00021,107,591,18.1,75.0,75.5,2024,Not Met,Improving
+HEDIS415887,Annual Dental Visit,PROV00004,223,639,34.9,75.0,75.5,2024,Not Met,Declining
+HEDIS712781,Annual Dental Visit,PROV00010,178,865,20.58,75.0,75.5,2024,Not Met,Improving
+HEDIS936923,Annual Dental Visit,PROV00142,301,681,44.2,75.0,75.5,2024,Not Met,Stable
+HEDIS272269,Annual Dental Visit,PROV00014,219,629,34.82,75.0,75.5,2024,Not Met,Declining
+HEDIS217190,Annual Dental Visit,PROV00065,294,755,38.94,75.0,75.5,2024,Not Met,Improving
+HEDIS449321,Annual Dental Visit,PROV00033,228,655,34.81,75.0,75.5,2024,Not Met,Stable
+HEDIS691596,Annual Dental Visit,PROV00024,434,914,47.48,75.0,75.5,2024,Not Met,Improving
+HEDIS828737,Annual Dental Visit,PROV00006,192,644,29.81,75.0,75.5,2024,Not Met,Declining
+HEDIS960502,Annual Dental Visit,PROV00052,442,587,75.3,75.0,75.5,2024,Met,Declining
+HEDIS568095,Annual Dental Visit,PROV00133,121,764,15.84,75.0,75.5,2024,Not Met,Improving
+HEDIS996933,Annual Dental Visit,PROV00120,442,586,75.43,75.0,75.5,2024,Met,Improving
+HEDIS928231,Annual Dental Visit,PROV00070,196,756,25.93,75.0,75.5,2024,Not Met,Stable
+HEDIS540554,Annual Dental Visit,PROV00060,202,815,24.79,75.0,75.5,2024,Not Met,Declining
+HEDIS964684,Annual Dental Visit,PROV00150,264,866,30.48,75.0,75.5,2024,Not Met,Improving
+HEDIS655725,Annual Dental Visit,PROV00005,105,726,14.46,75.0,75.5,2024,Not Met,Improving
+HEDIS638979,Annual Dental Visit,PROV00093,142,861,16.49,75.0,75.5,2024,Not Met,Stable
+HEDIS730135,Annual Dental Visit,PROV00017,396,699,56.65,75.0,75.5,2024,Not Met,Stable
+HEDIS684576,Annual Dental Visit,PROV00106,379,826,45.88,75.0,75.5,2024,Not Met,Stable
+HEDIS413247,Annual Dental Visit,PROV00002,111,600,18.5,75.0,75.5,2024,Not Met,Improving
+HEDIS900075,Annual Dental Visit,PROV00111,290,954,30.4,75.0,75.5,2024,Not Met,Declining
+HEDIS422172,Annual Dental Visit,PROV00073,356,942,37.79,75.0,75.5,2024,Not Met,Stable
+HEDIS167407,Annual Dental Visit,PROV00091,436,838,52.03,75.0,75.5,2024,Not Met,Declining
+HEDIS752346,Annual Dental Visit,PROV00139,278,727,38.24,75.0,75.5,2024,Not Met,Stable

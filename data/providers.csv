@@ -1,0 +1,151 @@
+provider_id,provider_name,specialty,network,years_experience,accepts_medicaid,accepts_medicare
+PROV00001,Dr. Miller C,Pulmonology,Network B,18,True,True
+PROV00002,Dr. Davis B,Primary Care,Network C,7,True,True
+PROV00003,Dr. Brown B,Pulmonology,Network A,15,True,True
+PROV00004,Dr. Davis B,Nephrology,Network A,19,True,True
+PROV00005,Dr. Jones A,Pulmonology,Network B,31,True,True
+PROV00006,Dr. Smith A,Nephrology,Network B,10,True,True
+PROV00007,Dr. Williams B,Cardiology,Network B,15,True,True
+PROV00008,Dr. Williams A,Psychiatry,Network C,18,False,True
+PROV00009,Dr. Williams C,Nephrology,Network C,23,True,True
+PROV00010,Dr. Davis B,Pulmonology,Network A,33,True,True
+PROV00011,Dr. Smith B,Psychiatry,Network A,13,True,True
+PROV00012,Dr. Jones B,Dermatology,Network C,17,True,True
+PROV00013,Dr. Jones A,Orthopedics,Network A,23,False,True
+PROV00014,Dr. Williams C,Psychiatry,Network C,3,True,True
+PROV00015,Dr. Jones B,Pulmonology,Network B,9,True,True
+PROV00016,Dr. Smith B,Pulmonology,Network C,2,True,True
+PROV00017,Dr. Williams A,Orthopedics,Network C,6,True,True
+PROV00018,Dr. Brown A,Dermatology,Network C,18,True,True
+PROV00019,Dr. Brown C,Primary Care,Network A,31,False,True
+PROV00020,Dr. Williams C,Cardiology,Network C,16,True,False
+PROV00021,Dr. Rodriguez A,Nephrology,Network C,21,True,True
+PROV00022,Dr. Williams A,Endocrinology,Network C,3,True,True
+PROV00023,Dr. Williams A,Nephrology,Network B,5,False,True
+PROV00024,Dr. Brown B,Pulmonology,Network C,25,True,True
+PROV00025,Dr. Davis C,Endocrinology,Network C,3,True,True
+PROV00026,Dr. Davis B,Endocrinology,Network C,3,True,True
+PROV00027,Dr. Williams B,Nephrology,Network A,2,True,True
+PROV00028,Dr. Rodriguez C,Orthopedics,Network B,14,True,True
+PROV00029,Dr. Davis A,Nephrology,Network B,7,True,True
+PROV00030,Dr. Davis C,Nephrology,Network C,23,False,True
+PROV00031,Dr. Miller A,Nephrology,Network C,18,True,True
+PROV00032,Dr. Rodriguez A,Orthopedics,Network A,23,True,True
+PROV00033,Dr. Rodriguez C,Orthopedics,Network C,7,True,True
+PROV00034,Dr. Davis A,Cardiology,Network A,4,True,True
+PROV00035,Dr. Brown A,Primary Care,Network C,7,True,True
+PROV00036,Dr. Smith C,Primary Care,Network A,18,False,True
+PROV00037,Dr. Rodriguez B,Nephrology,Network B,24,True,True
+PROV00038,Dr. Brown B,Primary Care,Network C,9,True,True
+PROV00039,Dr. Rodriguez A,Nephrology,Network A,8,True,True
+PROV00040,Dr. Smith B,Nephrology,Network A,11,False,True
+PROV00041,Dr. Williams C,Nephrology,Network C,27,True,False
+PROV00042,Dr. Brown A,Psychiatry,Network A,11,True,True
+PROV00043,Dr. Jones C,Cardiology,Network C,20,True,True
+PROV00044,Dr. Miller C,Pulmonology,Network C,24,True,True
+PROV00045,Dr. Miller B,Primary Care,Network A,32,True,True
+PROV00046,Dr. Brown B,Primary Care,Network A,34,True,True
+PROV00047,Dr. Davis A,Cardiology,Network A,3,True,False
+PROV00048,Dr. Brown C,Cardiology,Network B,29,False,True
+PROV00049,Dr. Williams B,Nephrology,Network C,33,True,False
+PROV00050,Dr. Rodriguez C,Nephrology,Network C,34,True,True
+PROV00051,Dr. Smith A,Psychiatry,Network B,10,False,True
+PROV00052,Dr. Jones B,Psychiatry,Network B,30,True,False
+PROV00053,Dr. Brown B,Dermatology,Network A,16,True,False
+PROV00054,Dr. Miller C,Pulmonology,Network C,19,True,True
+PROV00055,Dr. Rodriguez A,Primary Care,Network B,19,True,False
+PROV00056,Dr. Smith A,Cardiology,Network B,8,True,True
+PROV00057,Dr. Rodriguez A,Pulmonology,Network C,15,True,False
+PROV00058,Dr. Williams A,Primary Care,Network C,30,True,False
+PROV00059,Dr. Miller B,Pulmonology,Network C,20,True,True
+PROV00060,Dr. Smith B,Dermatology,Network A,6,True,True
+PROV00061,Dr. Williams B,Pulmonology,Network B,6,True,True
+PROV00062,Dr. Smith C,Orthopedics,Network A,16,True,True
+PROV00063,Dr. Williams B,Nephrology,Network C,27,True,True
+PROV00064,Dr. Miller B,Pulmonology,Network C,25,True,True
+PROV00065,Dr. Jones B,Nephrology,Network B,20,True,True
+PROV00066,Dr. Brown C,Primary Care,Network A,21,True,True
+PROV00067,Dr. Rodriguez B,Psychiatry,Network A,10,True,True
+PROV00068,Dr. Smith B,Primary Care,Network A,29,False,True
+PROV00069,Dr. Johnson A,Dermatology,Network C,17,True,True
+PROV00070,Dr. Davis B,Nephrology,Network B,12,True,True
+PROV00071,Dr. Johnson B,Psychiatry,Network A,26,False,True
+PROV00072,Dr. Davis C,Orthopedics,Network C,22,False,True
+PROV00073,Dr. Jones B,Endocrinology,Network C,6,True,True
+PROV00074,Dr. Rodriguez A,Psychiatry,Network A,12,True,True
+PROV00075,Dr. Davis B,Pulmonology,Network B,10,False,True
+PROV00076,Dr. Davis C,Dermatology,Network B,12,True,True
+PROV00077,Dr. Smith B,Dermatology,Network A,2,True,True
+PROV00078,Dr. Jones C,Primary Care,Network C,27,True,True
+PROV00079,Dr. Jones C,Orthopedics,Network C,11,True,True
+PROV00080,Dr. Davis B,Pulmonology,Network A,20,True,True
+PROV00081,Dr. Brown A,Orthopedics,Network C,17,True,True
+PROV00082,Dr. Williams C,Psychiatry,Network C,5,True,True
+PROV00083,Dr. Williams C,Endocrinology,Network A,15,True,True
+PROV00084,Dr. Johnson C,Pulmonology,Network C,31,True,True
+PROV00085,Dr. Williams B,Endocrinology,Network A,8,False,True
+PROV00086,Dr. Miller B,Cardiology,Network A,13,True,True
+PROV00087,Dr. Rodriguez C,Endocrinology,Network A,25,True,True
+PROV00088,Dr. Rodriguez A,Primary Care,Network C,23,True,True
+PROV00089,Dr. Smith C,Psychiatry,Network A,31,True,True
+PROV00090,Dr. Davis A,Nephrology,Network C,21,True,True
+PROV00091,Dr. Brown C,Nephrology,Network A,27,True,True
+PROV00092,Dr. Jones B,Dermatology,Network B,6,True,True
+PROV00093,Dr. Jones A,Pulmonology,Network C,7,True,True
+PROV00094,Dr. Davis B,Psychiatry,Network C,6,False,True
+PROV00095,Dr. Smith B,Dermatology,Network C,11,True,True
+PROV00096,Dr. Davis A,Orthopedics,Network B,29,True,True
+PROV00097,Dr. Miller A,Cardiology,Network A,4,True,True
+PROV00098,Dr. Smith A,Dermatology,Network B,14,True,True
+PROV00099,Dr. Williams C,Pulmonology,Network A,3,True,True
+PROV00100,Dr. Smith A,Endocrinology,Network A,29,True,True
+PROV00101,Dr. Brown C,Nephrology,Network A,24,True,True
+PROV00102,Dr. Smith C,Endocrinology,Network A,24,False,True
+PROV00103,Dr. Johnson A,Nephrology,Network A,33,True,True
+PROV00104,Dr. Rodriguez A,Dermatology,Network B,3,True,True
+PROV00105,Dr. Davis A,Nephrology,Network C,17,False,False
+PROV00106,Dr. Brown A,Nephrology,Network B,17,True,True
+PROV00107,Dr. Miller B,Dermatology,Network C,4,True,False
+PROV00108,Dr. Smith B,Psychiatry,Network C,29,True,True
+PROV00109,Dr. Johnson A,Orthopedics,Network C,30,True,True
+PROV00110,Dr. Smith A,Dermatology,Network B,21,True,True
+PROV00111,Dr. Miller A,Orthopedics,Network A,34,True,True
+PROV00112,Dr. Brown B,Orthopedics,Network A,23,True,True
+PROV00113,Dr. Jones A,Primary Care,Network C,9,True,True
+PROV00114,Dr. Miller B,Dermatology,Network A,25,True,True
+PROV00115,Dr. Rodriguez A,Psychiatry,Network A,21,False,True
+PROV00116,Dr. Williams C,Endocrinology,Network B,13,True,True
+PROV00117,Dr. Rodriguez B,Orthopedics,Network A,21,True,True
+PROV00118,Dr. Williams C,Psychiatry,Network A,21,True,True
+PROV00119,Dr. Rodriguez A,Orthopedics,Network B,5,True,True
+PROV00120,Dr. Miller B,Pulmonology,Network A,31,True,True
+PROV00121,Dr. Miller C,Cardiology,Network C,32,True,True
+PROV00122,Dr. Davis C,Pulmonology,Network B,23,True,True
+PROV00123,Dr. Miller B,Psychiatry,Network A,16,True,True
+PROV00124,Dr. Jones B,Endocrinology,Network A,29,False,True
+PROV00125,Dr. Rodriguez B,Cardiology,Network B,12,True,True
+PROV00126,Dr. Miller C,Pulmonology,Network C,15,True,True
+PROV00127,Dr. Miller B,Cardiology,Network B,12,True,True
+PROV00128,Dr. Smith B,Endocrinology,Network C,10,True,True
+PROV00129,Dr. Miller C,Nephrology,Network B,25,True,True
+PROV00130,Dr. Brown C,Endocrinology,Network A,11,True,True
+PROV00131,Dr. Davis A,Orthopedics,Network B,33,True,True
+PROV00132,Dr. Johnson B,Primary Care,Network B,21,True,True
+PROV00133,Dr. Johnson B,Cardiology,Network C,15,False,True
+PROV00134,Dr. Miller B,Endocrinology,Network B,5,True,True
+PROV00135,Dr. Johnson C,Nephrology,Network C,25,False,True
+PROV00136,Dr. Brown C,Dermatology,Network B,33,True,False
+PROV00137,Dr. Miller A,Nephrology,Network A,11,True,True
+PROV00138,Dr. Miller A,Endocrinology,Network B,17,True,True
+PROV00139,Dr. Miller A,Pulmonology,Network A,33,True,True
+PROV00140,Dr. Smith B,Endocrinology,Network C,19,True,True
+PROV00141,Dr. Williams A,Nephrology,Network C,26,True,True
+PROV00142,Dr. Davis C,Dermatology,Network C,8,True,True
+PROV00143,Dr. Miller A,Endocrinology,Network C,19,True,True
+PROV00144,Dr. Johnson C,Primary Care,Network B,19,True,True
+PROV00145,Dr. Williams A,Pulmonology,Network B,4,True,True
+PROV00146,Dr. Jones B,Endocrinology,Network B,2,True,True
+PROV00147,Dr. Rodriguez B,Nephrology,Network A,34,True,True
+PROV00148,Dr. Jones B,Endocrinology,Network B,8,True,True
+PROV00149,Dr. Williams A,Orthopedics,Network A,11,True,False
+PROV00150,Dr. Brown A,Endocrinology,Network A,9,True,True
